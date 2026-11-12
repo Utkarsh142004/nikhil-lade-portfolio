@@ -2394,7 +2394,7 @@ body {
 /* Smooth movement. The duration is forced here because your
     */
 .testimonial-slider .swiper-wrapper {
-    transition-duration: 600ms !important;
+    transition-duration: 400ms !important;
     transition-timing-function: cubic-bezier(.4, 0, .2, 1) !important;
 }
 
