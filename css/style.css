@@ -154,6 +154,29 @@ img {
 .nav-menu a.active:after {
     width: 100%
 }
+.header-work-btn {
+    font-size: 12px;
+    font-weight: 700;
+    padding: 11px 19px;
+    border-radius: 30px;
+    background: var(--blue);
+    box-shadow: 0 8px 24px rgba(37, 99, 235, .25);
+    transition: .3s;margin-right: 10px;
+    color: white;
+
+}
+
+.header-work-btn i {
+    margin-left: 8px
+}
+
+.header-work-btn:hover,
+.btn-primary:hover {
+    background: #4b8bff;
+    transform: translateY(-3px);
+    box-shadow: 0 12px 28px rgba(37, 99, 235, .35)
+}
+
 
 .header-btn {
     font-size: 12px;
@@ -162,7 +185,8 @@ img {
     border-radius: 30px;
     background: var(--blue);
     box-shadow: 0 8px 24px rgba(37, 99, 235, .25);
-    transition: .3s
+    transition: .3s;
+
 }
 
 .header-btn i {
@@ -1219,12 +1243,12 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #71829f;
+    color: #1f1919;
     font-size: 12px
 }
 
 .footer-bottom a {
-    color: #a9bad3
+    color: #35353b
 }
 
 .footer-bottom a:hover {
