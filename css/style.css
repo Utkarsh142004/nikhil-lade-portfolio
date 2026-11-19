@@ -2643,3 +2643,164 @@ body {
 
     pointer-events: none;
 }
+.header-action-buttons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .header-action-buttons {
+        gap: 8px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .header-action-buttons a {
+        font-size: 13px;
+        padding: 10px 14px;
+        white-space: nowrap;
+    }
+}
+
+/* Small Mobile Screens */
+@media (max-width: 480px) {
+    .header-action-buttons {
+        gap: 6px;
+    }
+
+    .header-action-buttons a {
+        font-size: 12px;
+        padding: 9px 11px;
+    }
+}
+
+/* =====================================
+   CONTACT SECTION RESPONSIVENESS
+===================================== */
+
+/* Tablet */
+@media (max-width: 991px) {
+
+    .cta-inner {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+        width: 100%;
+    }
+
+    .cta-copy {
+        width: 100%;
+    }
+
+    .contact-form-wrapper {
+        width: 100%;
+    }
+
+    .cta-copy h2 {
+        font-size: clamp(32px, 5vw, 48px);
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+
+    .contact-cta {
+        padding: 60px 15px;
+        overflow: hidden;
+    }
+
+    .cta-inner {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        padding: 0;
+    }
+
+    .cta-copy {
+        width: 100%;
+    }
+
+    .cta-copy h2 {
+        font-size: 34px;
+        line-height: 1.2;
+    }
+
+    .cta-copy p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .contact-details {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .contact-details div {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .contact-details span {
+        font-size: 13px;
+        overflow-wrap: anywhere;
+    }
+
+    /* Contact Form */
+
+    .contact-form-wrapper {
+        width: 100%;
+        padding: 25px 18px;
+        box-sizing: border-box;
+    }
+
+    .contact-form-wrapper h3 {
+        font-size: 23px;
+    }
+
+    .contact-form-wrapper p {
+        font-size: 13px;
+    }
+
+    .form-group {
+        width: 100%;
+        margin-bottom: 18px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+
+    .contact-submit {
+        width: 100%;
+        padding: 13px 20px;
+    }
+}
+
+/* Extra Small Mobile */
+@media (max-width: 380px) {
+
+    .contact-cta {
+        padding: 45px 12px;
+    }
+
+    .cta-copy h2 {
+        font-size: 29px;
+    }
+
+    .contact-form-wrapper {
+        padding: 20px 14px;
+    }
+
+    .contact-details span {
+        font-size: 12px;
+    }
+}
