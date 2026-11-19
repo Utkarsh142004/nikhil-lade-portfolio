@@ -2804,3 +2804,27 @@ body {
         font-size: 12px;
     }
 }
+@media (max-width: 991px) {
+  /* White box */
+  .nav-menu {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  }
+
+  /* Black text */
+  .nav-menu a {
+    color: #000000;
+  }
+
+  /* Hover and active link */
+  .nav-menu a:hover,
+  .nav-menu a.active {
+    color: #2563eb; /* blue accent, change to #000 if you want it fully black */
+  }
+
+  /* Divider lines between links (if you use them) */
+  .nav-menu a + a {
+    border-top: 1px solid #f0f0f0;
+  }
+}
